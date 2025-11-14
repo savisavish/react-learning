@@ -9,6 +9,9 @@
     height: 40px;
     padding: 10px;
 }
-.form-container .error{
-    display: none;
-}
+.error {
+    color: red;
+    font-size: 12px;
+    display: block;
+    margin-top: 2px;
+  }
