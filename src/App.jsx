@@ -15,6 +15,7 @@ import Cart from './components/examples/Cart'
 import Css from './components/css/Css'
 import Loaderstemplate from './components/loaders/Loaderstemplate'
 import Javascript from './components/javascript/Javascript'
+import Form from './components/examples/Form'
 
 function App() {
 
@@ -38,6 +39,7 @@ function App() {
               <Route path='/loaderstemplate' element={<Loaderstemplate />} />
               <Route path='/css' element={<Css />} />
               <Route path='/javascript' element={<Javascript />} />
+              <Route path='/form' element={<Form />} />
             </Routes>
           </div>
         </Router>

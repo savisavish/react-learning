@@ -148,6 +148,19 @@ function Header() {
                 Loaders
               </NavLink>
             </li>
+            <li
+              className="header__item">
+              <NavLink
+                to="/form"
+                className={({ isActive }) =>
+                  isActive
+                    ? 'header__link header__link--active'
+                    : 'header__link'
+                }
+              >
+                Form
+              </NavLink>
+            </li>
           </ul>
         </nav>
 

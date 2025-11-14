@@ -1,0 +1,14 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-container input[type="text"]{
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+}
+.form-container .error{
+    display: none;
+}
